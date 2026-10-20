@@ -721,7 +721,7 @@ function buildPortfolioDOM() {
 
   data.skills.forEach((cat, idx) => {
     skillsHtml += `
-      <div class="bento-card" id="skills-cat-${idx}">
+      <div class="bento-card${cat.title === 'Natural Language Processing' ? ' bento-card-nlp' : ''}" id="skills-cat-${idx}">
         <div class="bento-card-header font-heading">
           <span class="card-num font-mono text-gold">0${idx + 1} //</span>
           ${cat.title}

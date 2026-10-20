@@ -267,6 +267,11 @@ section {
   outline-offset: 4px;
 }
 
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+  outline: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto !important;
@@ -285,6 +290,8 @@ section {
   body,
   a,
   button,
+  .form-input,
+  .form-textarea,
   summary,
   .architecture-dropdown summary {
     cursor: none !important;
@@ -1151,6 +1158,10 @@ section {
 }
 .bento-card-body {
   margin-top: auto;
+}
+.bento-card-nlp .tech-tags-cloud {
+  flex-direction: column;
+  align-items: flex-start;
 }
 .tech-tags-cloud {
   display: flex;
