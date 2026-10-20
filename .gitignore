@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Local development output
+*.log
+
+# Generated inspection artifacts
+/public/frames/inspection/
+/dist/frames/inspection/
+
+# Research extracts and local working files
+/target_site/
+/task.md
+/content.md
+/Screenshot*.png

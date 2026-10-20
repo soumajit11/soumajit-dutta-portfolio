@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <rect width="400" height="240" fill="#151214" />
+  <rect x="20" y="20" width="360" height="200" fill="none" stroke="#262626" />
+  <g transform="translate(150, 70)">
+    <circle cx="20" cy="20" r="14" fill="#181818" stroke="#d4a95a" stroke-width="1.5" />
+    <circle cx="80" cy="20" r="14" fill="#181818" stroke="#38bdf8" stroke-width="1.5" />
+    <circle cx="50" cy="70" r="14" fill="#181818" stroke="#a5a5a5" stroke-width="1.5" />
+    <line x1="30" y1="20" x2="70" y2="20" stroke="#d4a95a" />
+    <line x1="25" y1="30" x2="45" y2="60" stroke="#a5a5a5" />
+    <line x1="75" y1="30" x2="55" y2="60" stroke="#38bdf8" />
+  </g>
+  <text x="35" y="50" fill="#d4a95a" font-family="'JetBrains Mono', monospace" font-size="11" letter-spacing="1">ARTICLE 03 // MACHINE LEARNING ARCHITECTURE</text>
+  <text x="35" y="200" fill="#5c5c5c" font-family="'JetBrains Mono', monospace" font-size="10">ENSEMBLE // FEATURE ENGINEERING // METRICS</text>
+</svg>
