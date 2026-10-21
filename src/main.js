@@ -4,8 +4,12 @@ import Lenis from 'lenis';
 import SplitType from 'split-type';
 import { CursorTrackingAvatar } from './cursorTrackingAvatar.js';
 import emailjs from '@emailjs/browser';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 gsap.registerPlugin(ScrollTrigger);
+
+// Initialize Vercel Speed Insights
+injectSpeedInsights();
 
 const EMAILJS_CONFIG = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
