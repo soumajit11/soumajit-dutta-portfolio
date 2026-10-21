@@ -42,19 +42,3 @@ npm run preview
 ```
 
 The production site is written to `dist/`.
-
-## Update portfolio content
-
-Portfolio content is defined in `PORTFOLIO_DATA` near the top of [`src/main.js`](src/main.js). Update profile and contact details, projects, experience, skills, education, articles, and certifications there. Static images and the avatar animation frames are in [`public/`](public/).
-
-## Deploy to Vercel
-
-1. Push this repository to your Git provider after connecting a remote.
-2. Sign in to [Vercel](https://vercel.com/) and select **Add New → Project**.
-3. Import the portfolio repository.
-4. In project settings, use the repository root as the **Root Directory** and select **Vite** as the framework preset. Vercel should detect the settings automatically; confirm:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-   - **Install Command:** `npm install`
-5. To enable the contact form, add `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and `VITE_EMAILJS_PUBLIC_KEY` under **Environment Variables** in Vercel. Omit them to deploy without contact form delivery.
-6. Select **Deploy**. Vercel will build and publish the site; subsequent pushes to the connected branch trigger new deployments.
